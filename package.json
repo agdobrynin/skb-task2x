@@ -1,0 +1,19 @@
+{
+  "private": false,
+  "name": "skill-branch-task2x",
+  "version": "0.0.1",
+  "description": "Project with skill-branch.ru for task 2x blackbox",
+  "license": "MIT",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "big-number": "^0.4.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon -- src/index.js"
+  }
+}
