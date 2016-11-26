@@ -20,7 +20,7 @@ function calc_number( i = 0 ){
   if( i == 1 ) return 6 * 3 * calc_number(0); //18
   if( i == 2 ) return 6 * 2 * calc_number(1) + 9 * 3 * calc_number(0);
   //return 6 * 2 * calc_number( i - 1 ) + 9 * 2 * calc_number( i - 2 );
-  return BigNumber(12).multiply(calc_number( i - 1 ) ).plus( BigNumber(18).multiply(calc_number( i - 2 )) );
+  return BigNumber(12).multiply( calc_number( i - 1 ) ).plus( BigNumber(18).multiply(calc_number( i - 2 )) );
 }
 
 // index page
